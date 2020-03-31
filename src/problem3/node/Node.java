@@ -34,7 +34,7 @@ public class Node {
 
 
 
-    public void setData(Student data) {
+    public void setData(MyStudent data) {
 
         this.data = data;
 
