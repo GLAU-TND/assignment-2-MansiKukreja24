@@ -4,7 +4,7 @@ package problem3.myLinkedList;
 
 import problem3.node.Node;
 
-import problem3.student.Student;
+import problem3.student.MyStudent;
 
 
 
@@ -16,7 +16,7 @@ public class LinkedList {
 
 
 
-    public void addLast(Student student){
+    public void addLast(MyStudent student){
 
         Node node = new Node(student);
 
