@@ -22,7 +22,7 @@ public class MyMain {
 
         myBinarySearchTree.insert(15);
 
-        myBinarySearchTree.insert(10)
+        myBinarySearchTree.insert(10);
 
         myBinarySearchTree.insert(65);
 
