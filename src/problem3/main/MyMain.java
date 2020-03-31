@@ -8,28 +8,28 @@ package problem3.main;
 
 import problem3.myqueue.MyPriorityQueue;
 
-import problem3.student.Student;
+import problem3.student.MyStudent;
 
 
 // executable class
-// use problem5.student.Student class to create object of student
+// use problem5.student.MyStudent class to create object of student
 public class MyMain {
   
   public static void main(String[] args) {
 
         MyPriorityQueue queue = new MyPriorityQueue();
 
-        queue.enqueue(new Student("Mansi",18));
+        queue.enqueue(new MyStudent("Mansi",18));
 
-        queue.enqueue(new Student("Diksha",13));
+        queue.enqueue(new MyStudent("Diksha",13));
 
-        queue.enqueue(new Student("Sanskriti",27));
+        queue.enqueue(new MyStudent("Sanskriti",27));
 
-        queue.enqueue(new Student("Muskan",58));
+        queue.enqueue(new MyStudent("Muskan",58));
 
-        queue.enqueue(new Student("Stuti",10));
+        queue.enqueue(new MyStudent("Stuti",10));
 
-        queue.enqueue(new Student("Aparna",50));
+        queue.enqueue(new MyStudent("Aparna",50));
 
 
 
