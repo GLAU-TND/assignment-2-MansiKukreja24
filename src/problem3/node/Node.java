@@ -6,17 +6,17 @@
  */
 package problem3.node;
 
-import problem3.student.Student;
+import problem3.student.MyStudent;
 
 public class Node {
 
-    private Student data;
+    private MyStudent data;
 
     private Node next;
 
 
 
-    public Node(Student data){
+    public Node(MyStudent data){
 
         this.data=data;
 
@@ -26,7 +26,7 @@ public class Node {
 
 
 
-    public Student getData() {
+    public MyStudent getData() {
 
         return data;
 
