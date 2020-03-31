@@ -6,7 +6,7 @@
  */
 package problem3.main;
 
-import problem3.myqueue.PriorityQueue;
+import problem3.myqueue.MyPriorityQueue;
 
 import problem3.student.Student;
 
@@ -17,7 +17,7 @@ public class MyMain {
   
   public static void main(String[] args) {
 
-        PriorityQueue queue = new PriorityQueue();
+        MyPriorityQueue queue = new MyPriorityQueue();
 
         queue.enqueue(new Student("Mansi",18));
 
